@@ -1,0 +1,19 @@
+{
+  "pageLoadTimeout": 100000,
+  "defaultCommandTimeout": 6000,
+  "chromeWebSecurity": false,
+  "experimentalSourceRewriting": true,
+  "reporter":"mochawesome",
+  "reporterOptions": {
+    "overwrite": true
+  },
+  "testFiles": "**/*.feature",
+  "retries":{
+        "runMode":1,
+        "openMode":1
+  },
+  "env": {
+    "customenvvariable": "https://rahulshettyacademy.com"
+  },
+  "projectId": "dhihdk"
+}
